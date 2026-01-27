@@ -46,9 +46,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const heroVideo = document.querySelector('.hero-video');
   const audioControl = document.getElementById('audio-control');
   const bgmToggle = document.getElementById('bgm-toggle');
+  const contactBtn = document.getElementById('contact-btn');
+  const contactControl = document.getElementById('contact-control');
 
   if (startBtn && introOverlay) {
-    if (bgm) bgm.volume = 0.3; // Updated to 30%
+    if (bgm) bgm.volume = 0.2; // Adjusted to 20%
 
     startBtn.addEventListener('click', () => {
       // Play Audio
@@ -68,8 +70,16 @@ document.addEventListener('DOMContentLoaded', () => {
       document.body.classList.remove('no-scroll');
       lenis.scrollTo(0, { immediate: true });
 
-      // Show Audio Control
+      // Show Controls
       if (audioControl) audioControl.classList.add('visible');
+      if (contactControl) contactControl.classList.add('visible');
+    });
+  }
+
+  // Contact Scroll Logic
+  if (contactBtn) {
+    contactBtn.addEventListener('click', () => {
+      lenis.scrollTo('footer', { duration: 1.5 });
     });
   }
 
