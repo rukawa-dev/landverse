@@ -1,7 +1,8 @@
 @font-face {
-  font-family: 'Escoredream';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
-  font-weight: 100;
+  font-family: 'HyliaSerif';
+  src: url('./assets/HyliaSerifBeta-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
   font-display: swap;
 }
 
@@ -63,7 +64,8 @@
 
 :root {
   --font-main: 'Montserrat', 'Escoredream', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', sans-serif;
-  --font-title: 'Montserrat', 'Escoredream', sans-serif;
+  --font-title: 'HyliaSerif', 'Montserrat', 'Escoredream', sans-serif;
+  --font-zelda: 'HyliaSerif', serif;
 
   --bg-primary: #011627;
   --bg-secondary: #0b2942;
@@ -106,6 +108,19 @@ body.no-scroll {
   overflow: hidden;
 }
 
+/* Hide Native Scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
 /* Global Reset for Fonts */
 button,
 input,
@@ -114,30 +129,34 @@ textarea {
   font-family: inherit;
 }
 
-/* Overlay Scrollbar (Hidden by default, visible on hover) */
-::-webkit-scrollbar {
-  width: 6px;
+/* Custom Overlay Scrollbar */
+.custom-scrollbar {
+  position: fixed;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  width: 5px;
+  z-index: 10000;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-::-webkit-scrollbar-track {
-  background: transparent;
+body:not(.no-scroll):hover .custom-scrollbar {
+  opacity: 1;
 }
 
-::-webkit-scrollbar-thumb {
-  background: transparent;
-  /* Hidden by default */
+body.no-scroll .custom-scrollbar {
+  display: none;
+}
+
+.scrollbar-thumb {
+  width: 100%;
+  background: rgba(130, 170, 255, 0.5);
   border-radius: 10px;
-  transition: background 0.3s ease;
-}
-
-body:hover::-webkit-scrollbar-thumb,
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(130, 170, 255, 0.4);
-  /* Visible on body hover or thumb hover */
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--accent-color);
+  position: absolute;
+  top: 0;
+  will-change: transform, height;
 }
 
 a {
@@ -229,6 +248,8 @@ section {
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1em;
+  text-decoration: none;
+  /* For <a> tag support */
   transition: all 0.3s ease;
 }
 
@@ -259,14 +280,13 @@ section {
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  transition: opacity 0.8s ease;
-  /* Removed transform from transition */
+  transition: opacity 1.2s ease, filter 1.2s ease, backdrop-filter 1.2s ease;
   perspective: 1000px;
 }
 
 #intro-overlay.hidden {
-  transform: translateY(-100%);
   opacity: 0;
+  filter: blur(20px);
   pointer-events: none;
 }
 
@@ -282,6 +302,7 @@ section {
   font-weight: 800;
   margin-bottom: 1rem;
   background: linear-gradient(135deg, #7fdbca 0%, #82aaff 100%);
+  background-clip: text;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -325,6 +346,7 @@ section {
 }
 
 .intro-hint {
+  font-family: var(--font-zelda);
   margin-top: 1.5rem;
   color: var(--text-secondary);
   font-size: 0.9rem;
@@ -399,25 +421,14 @@ section {
 }
 
 #hero .logo {
-  font-family: var(--font-title);
+  font-family: var(--font-zelda);
   font-size: 8rem;
-  /* Scale up slightly */
   font-weight: 900;
   letter-spacing: 0.05em;
   margin-bottom: 0.5rem;
-  background: linear-gradient(120deg,
-      #7fdbca 20%,
-      #ffffff 40%,
-      #82aaff 60%,
-      #7fdbca 80%);
-  background-size: 200% auto;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  /* Text Stroke for better definition */
-  -webkit-text-stroke: 1.5px rgba(127, 219, 202, 0.3);
-  /* Removed blurry drop-shadows */
-  animation: float 4s ease-in-out infinite, shimmer 3s linear infinite;
+  color: #ffffff;
+  /* Removed gradients and shimmer */
+  animation: float 4s ease-in-out infinite;
   position: relative;
 }
 
@@ -440,11 +451,10 @@ section {
 }
 
 #hero .slogan {
+  font-family: var(--font-zelda);
   font-size: 1.8rem;
   font-weight: 800;
-  background: linear-gradient(to right, #ffffff, #82aaff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #ffffff;
   margin-bottom: 1.5rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -468,6 +478,7 @@ section {
 
 /* Scroll Down Indicator */
 .scroll-indicator {
+  font-family: var(--font-zelda);
   position: absolute;
   bottom: 40px;
   left: 50%;
@@ -532,6 +543,11 @@ section {
   transition: box-shadow 0.4s ease;
   /* Removed transform from transition to avoid flickering with JS tilt */
   transform-style: preserve-3d;
+  display: block;
+  /* Ensure it behaves like a card when using <a> */
+  text-decoration: none;
+  /* Remove underline */
+  color: inherit;
 }
 
 .gate-card:hover {

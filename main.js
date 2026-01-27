@@ -33,11 +33,37 @@ document.addEventListener('DOMContentLoaded', () => {
     smoothWheel: true
   });
 
+  // Custom Scrollbar Sync
+  const scrollbarThumb = document.querySelector('.scrollbar-thumb');
+  const updateScrollbar = (scroll) => {
+    if (!scrollbarThumb) return;
+    const scrollHeight = document.documentElement.scrollHeight;
+    const clientHeight = document.documentElement.clientHeight;
+    const scrollRatio = clientHeight / scrollHeight;
+
+    // Update thumb height
+    const thumbHeight = clientHeight * scrollRatio;
+    scrollbarThumb.style.height = `${thumbHeight}px`;
+
+    // Update thumb position
+    const maxScroll = scrollHeight - clientHeight;
+    const progress = scroll / maxScroll;
+    const thumbTop = (clientHeight - thumbHeight - 10) * progress; // 10px padding for top/bottom
+    scrollbarThumb.style.transform = `translateY(${thumbTop}px)`;
+  };
+
   function raf(time) {
     lenis.raf(time);
     requestAnimationFrame(raf);
   }
   requestAnimationFrame(raf);
+
+  lenis.on('scroll', (e) => {
+    updateScrollbar(e.scroll);
+  });
+
+  // Initial update
+  setTimeout(() => updateScrollbar(window.scrollY), 500);
 
   // Intro Screen Logic
   const startBtn = document.getElementById('start-btn');
@@ -73,13 +99,6 @@ document.addEventListener('DOMContentLoaded', () => {
       // Show Controls
       if (audioControl) audioControl.classList.add('visible');
       if (contactControl) contactControl.classList.add('visible');
-    });
-  }
-
-  // Contact Scroll Logic
-  if (contactBtn) {
-    contactBtn.addEventListener('click', () => {
-      lenis.scrollTo('footer', { duration: 1.5 });
     });
   }
 
