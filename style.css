@@ -1,23 +1,23 @@
 :root {
   --font-main: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
-  
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8f9fa;
-  --bg-accent: #111111;
-  
-  --text-primary: #111111;
-  --text-secondary: #666666;
-  --text-inverse: #ffffff;
-  
-  --accent-color: #007AFF; /* Apple-style Blue */
-  --accent-soft: rgba(0, 122, 255, 0.1);
-  
-  --glass-bg: rgba(255, 255, 255, 0.7);
-  --glass-border: rgba(255, 255, 255, 0.3);
-  
+
+  --bg-primary: #011627;
+  --bg-secondary: #0b2942;
+  --bg-accent: #7fdbca;
+
+  --text-primary: #d6deeb;
+  --text-secondary: #5f7e97;
+  --text-inverse: #011627;
+
+  --accent-color: #82aaff;
+  --accent-soft: rgba(126, 219, 202, 0.15);
+
+  --glass-bg: rgba(1, 22, 39, 0.7);
+  --glass-border: rgba(126, 219, 202, 0.2);
+
   --section-padding: 120px 20px;
   --container-width: 1200px;
-  
+
   --transition-smooth: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -107,7 +107,7 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: radial-gradient(circle at center, #ffffff 0%, #f0f4f8 100%);
+  background: radial-gradient(circle at center, #022a4d 0%, #011627 100%);
 }
 
 #hero .logo {
@@ -115,7 +115,8 @@ section {
   font-weight: 900;
   letter-spacing: -0.05em;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #111 0%, #444 100%);
+  background: linear-gradient(135deg, #7fdbca 0%, #82aaff 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -151,7 +152,7 @@ section {
 
 .gate-card:hover {
   transform: scale(1.02);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .gate-card img {
@@ -171,7 +172,7 @@ section {
   left: 0;
   right: 0;
   padding: 30px;
-  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
   color: white;
 }
 
@@ -221,7 +222,7 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #222;
   transition: var(--transition-smooth);
 }
 
@@ -256,13 +257,19 @@ section {
 }
 
 .util-card:hover {
-  background: var(--bg-accent);
-  color: white;
+  background: #82aaff;
+  color: #011627;
 }
 
 .util-card h4 {
   font-size: 1.2rem;
   margin-bottom: 10px;
+  color: #ecc48d;
+  /* Night Owl Yellowish */
+}
+
+.util-card:hover h4 {
+  color: #011627;
 }
 
 .util-card:hover p {
@@ -272,7 +279,7 @@ section {
 /* Footer */
 footer {
   padding: 80px 20px;
-  background: var(--bg-accent);
+  background: var(--bg-secondary);
   color: white;
   text-align: center;
 }
@@ -297,11 +304,11 @@ footer {
   .about-content {
     grid-template-columns: 1fr;
   }
-  
+
   #hero .logo {
     font-size: 2.5rem;
   }
-  
+
   .project-item {
     flex-direction: column;
     align-items: flex-start;
