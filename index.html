@@ -18,22 +18,36 @@
   <link rel="stylesheet" as="style" crossorigin
     href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
-
+  <!-- Montserrat Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
 
+  <!-- Lenis Smooth Scroll -->
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+
 </head>
 
-<body>
+<body class="no-scroll">
+  <!-- Mouse Particle Effect -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- BGM Control -->
+  <div id="audio-control">
+    <button id="bgm-toggle" class="audio-btn" aria-label="Toggle Background Music">
+      <span class="icon">♪</span>
+      <span class="status-text">ON</span>
+    </button>
+  </div>
+
   <!-- Intro Screen Overlay -->
   <div id="intro-overlay">
     <div class="intro-content">
       <div class="intro-logo">LandVerse</div>
-      <button id="start-btn" class="start-btn">START EXPERIENCE</button>
-      <p class="intro-hint">Click 'START' to explore the universe</p>
+      <p class="intro-hint">The universe is waiting for you...</p>
     </div>
+    <button id="start-btn" class="start-btn">START EXPERIENCE</button>
   </div>
 
   <main>
@@ -172,13 +186,26 @@
 
     <!-- Utilities Section -->
     <section id="utilities" class="container">
-      <h2 class="section-title reveal">Web Utilities & Extensions</h2>
-      <p class="section-subtitle reveal">웹 퍼블리싱 역량을 강조하는 자체 제작 도구</p>
+      <h2 class="section-title reveal">Web Utilities</h2>
+      <p class="section-subtitle reveal">개발 생산성을 높이는 AI 기반 자체 제작 도구</p>
       <div class="utils-grid">
         <div class="util-card reveal">
           <h4>AI Utility Tools</h4>
           <p>Audio Splitter, 폰트아이콘 생성기, TEXT_2_TTS, 이미지 최적화 도구 등 업무 효율성을 위한 AI 도구 개발</p>
         </div>
+        <!-- Contents to be filled later -->
+        <div class="util-card reveal" style="opacity: 0.5; border: 1px dashed rgba(255,255,255,0.1);">
+          <h4 style="color: var(--text-secondary);">Coming Soon</h4>
+          <p>새로운 웹 유틸리티가 준비 중입니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Extensions Section -->
+    <section id="extensions" class="container">
+      <h2 class="section-title reveal">Chrome Extensions</h2>
+      <p class="section-subtitle reveal">브라우저에서의 작업 효율을 극대화하는 확장 프로그램</p>
+      <div class="utils-grid">
         <div class="util-card reveal">
           <h4>Chrome: Prompt Memo</h4>
           <p>AI 프롬프트를 효율적으로 저장하고 기기 간 동기화하는 스마트한 도구</p>
