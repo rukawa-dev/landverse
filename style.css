@@ -362,6 +362,10 @@ section {
   border: 1px solid var(--glass-border);
 }
 
+.only-mobile {
+  display: none !important;
+}
+
 /* Scroll Animation Base */
 .reveal {
   opacity: 0;
@@ -719,9 +723,24 @@ footer .logo {
     font-size: 2.5rem;
   }
 
+  #hero .slogan {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+  }
+
+  #hero .sub-text {
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    padding: 6px 16px;
+  }
+
   .project-item {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+  }
+
+  .only-mobile {
+    display: inline !important;
   }
 }

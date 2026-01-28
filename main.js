@@ -79,11 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (bgm) bgm.volume = 0.2; // Adjusted to 20%
 
     startBtn.addEventListener('click', () => {
-      // Play Audio
-      if (bgm) {
-        bgm.play().catch(err => console.log('BGM Play failed:', err));
-      }
-
       // Play Video
       if (heroVideo) {
         heroVideo.play().catch(err => console.log('Video Play failed:', err));
@@ -104,8 +99,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // BGM Toggle Logic
   if (bgmToggle && bgm) {
-    const updateBgmUI = (isPaused) => {
-      if (isPaused) {
+    // Initial state from localStorage
+    let bgmEnabled = localStorage.getItem('bgm_enabled') !== 'false'; // Default to true
+
+    const updateBgmUI = (isEnabled) => {
+      if (!isEnabled) {
         bgmToggle.classList.add('muted');
         bgmToggle.querySelector('.status-text').textContent = 'OFF';
       } else {
@@ -114,14 +112,35 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
 
+    // Initialize UI based on stored state
+    updateBgmUI(bgmEnabled);
+
+    // Update start button logic to respect preference
+    if (startBtn) {
+      startBtn.addEventListener('click', () => {
+        if (bgmEnabled) {
+          bgm.play().catch(err => console.log('BGM Play failed:', err));
+        }
+      });
+    }
+
     bgmToggle.addEventListener('click', () => {
-      if (bgm.paused) {
+      if (bgm.paused && bgmEnabled) { // If paused but enabled, play it (manual toggle)
         bgm.play();
-        updateBgmUI(false);
-      } else {
+      } else if (!bgm.paused) {
         bgm.pause();
-        updateBgmUI(true);
+        bgmEnabled = false;
+      } else {
+        bgmEnabled = true;
+        // Only play if we are past the intro
+        if (introOverlay && introOverlay.classList.contains('hidden')) {
+          bgm.play();
+        }
       }
+
+      bgmEnabled = !bgm.paused;
+      localStorage.setItem('bgm_enabled', bgmEnabled);
+      updateBgmUI(bgmEnabled);
     });
 
     // Keyboard Shortcut (ESC to toggle/stop BGM)
@@ -129,7 +148,9 @@ document.addEventListener('DOMContentLoaded', () => {
       if (e.key === 'Escape') {
         if (!bgm.paused) {
           bgm.pause();
-          updateBgmUI(true);
+          bgmEnabled = false;
+          localStorage.setItem('bgm_enabled', bgmEnabled);
+          updateBgmUI(false);
         }
       }
     });
