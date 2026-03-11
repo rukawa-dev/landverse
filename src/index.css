@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-midnight-bg: #011627;
+  --color-midnight-card: #0b2942;
+  --color-midnight-accent: #7fdbca;
+  --color-midnight-primary: #82aaff;
+  --color-midnight-secondary: #5f7e97;
+  --color-midnight-text: #d6deeb;
+
+  --font-hylia: "HyliaSerif", serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-pretendard: "Pretendard", sans-serif;
+
+  --shadow-bloom: 0 0 20px rgba(127, 219, 202, 0.2);
+  --shadow-bloom-hover: 0 0 40px rgba(127, 219, 202, 0.4);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-midnight-bg);
+    color: var(--color-midnight-text);
+    font-family: 'Montserrat', 'Pretendard', sans-serif;
+  }
+}
+
+@layer components {
+
+  /* Glass card with Midnight Bloom accent */
+  .bloom-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    transition: all 0.5s;
+    background: linear-gradient(135deg, rgba(11, 41, 66, 0.4) 0%, rgba(1, 22, 39, 0.7) 100%);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(127, 219, 202, 0.2);
+  }
+
+  .bloom-card:hover {
+    border-color: var(--color-midnight-accent);
+    box-shadow: var(--shadow-bloom-hover);
+    background: linear-gradient(135deg, rgba(11, 41, 66, 0.6) 0%, rgba(1, 22, 39, 0.9) 100%);
+  }
+
+  .premium-text-gradient {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, var(--color-midnight-accent), var(--color-midnight-primary));
+  }
+}

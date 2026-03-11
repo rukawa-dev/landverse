@@ -1,4 +1,17 @@
+import './style.css';
+import './src/index.css';
+import { createIcons, ExternalLink, Play, Youtube } from 'lucide';
+
 document.addEventListener('DOMContentLoaded', () => {
+  // Initialize Lucide Icons
+  createIcons({
+    icons: {
+      ExternalLink,
+      Play,
+      Youtube
+    }
+  });
+
   // Intersection Observer for scroll reveal
   const revealElements = document.querySelectorAll('.reveal');
 

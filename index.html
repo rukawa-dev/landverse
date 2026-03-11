@@ -86,40 +86,63 @@
     </section>
 
     <!-- Gate Section -->
-    <section id="gate" class="container">
-      <h2 class="section-title reveal">Youtube Channels</h2>
-      <p class="section-subtitle reveal">4개의 주요 채널로 바로 이동해보세요.</p>
-      <div class="gate-grid">
-        <a href="https://www.youtube.com/@젤다랜드" target="_blank" class="gate-card reveal">
-          <img src="assets/uploaded_media_0_1769496383656.png" alt="젤다랜드">
-          <div class="gate-info">
-            <h3>젤다랜드</h3>
-            <p>"모험의 시작, <br />젤다의 모든 것"</p>
+    <section id="gate" class="container mx-auto px-6 py-32">
+      <div class="text-center mb-16">
+        <h2 class="text-5xl md:text-6xl font-extrabold mb-4 active reveal"
+          style="font-family: var(--font-zelda); letter-spacing: 0.05em;">Youtube Channels</h2>
+        <p class="text-lg md:text-xl text-gray-500 reveal active">크리에이터 랜드의 주요 채널을 탐험해보세요.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <!-- 젤다랜드 -->
+        <a href="https://www.youtube.com/@젤다랜드" target="_blank"
+          class="gate-card group relative block h-[550px] rounded-[2.5rem] overflow-hidden shadow-2xl transition-all duration-700 hover:-translate-y-4 reveal active">
+          <img src="assets/uploaded_media_0_1769496383656.png" alt="젤다랜드"
+            class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-[#011627] via-black/30 to-transparent"></div>
+
+          <div class="absolute bottom-0 left-0 right-0 p-10 md:p-14 transform transition-all duration-500">
+            <div class="flex items-center gap-3 mb-4 opacity-70">
+              <i data-lucide="youtube" class="w-6 h-6 text-red-500"></i>
+              <span class="text-xs font-semibold tracking-widest text-[#7fdbca]">PREMIUM CHANNEL</span>
+            </div>
+            <h3 class="text-4xl md:text-5xl font-bold text-white mb-4">젤다랜드</h3>
+            <p
+              class="text-lg text-gray-300 leading-relaxed mb-8 max-w-md opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              "모험의 시작, 젤다의 모든 것"을 담은 프리미엄 게임 채널</p>
+            <div
+              class="inline-flex items-center gap-3 px-8 py-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-sm font-bold text-white group-hover:bg-[#7fdbca] group-hover:text-[#011627] transition-all duration-300">
+              CHANNEL VISIT <i data-lucide="external-link" class="w-4 h-4"></i>
+            </div>
           </div>
         </a>
-        <a href="https://www.youtube.com/@플레이랜드-8188" target="_blank" class="gate-card reveal">
-          <img src="assets/uploaded_media_1_1769496383656.jpg" alt="플레이랜드">
-          <div class="gate-info">
-            <h3>플레이랜드</h3>
-            <p>"멈추지 않는 즐거움, <br />게임 플레이의 정석"</p>
-          </div>
-        </a>
-        <a href="https://www.youtube.com/@소프트랜드-8188" target="_blank" class="gate-card reveal">
-          <img src="assets/uploaded_media_2_1769496383656.jpg" alt="소프트랜드">
-          <div class="gate-info">
-            <h3>소프트랜드</h3>
-            <p>"IT와 소프트웨어, <br />더 스마트해지는 방법"</p>
-          </div>
-        </a>
-        <a href="https://www.youtube.com/@뉴스랜드-8188" target="_blank" class="gate-card reveal">
-          <img src="assets/uploaded_media_3_1769496383656.jpg" alt="뉴스랜드">
-          <div class="gate-info">
-            <h3>뉴스랜드</h3>
-            <p>"세상 돌아가는 소식, <br />가장 빠르고 정확하게"</p>
+
+        <!-- 플레이랜드 -->
+        <a href="https://www.youtube.com/@플레이랜드-8188" target="_blank"
+          class="gate-card group relative block h-[550px] rounded-[2.5rem] overflow-hidden shadow-2xl transition-all duration-700 hover:-translate-y-4 reveal active">
+          <img src="assets/uploaded_media_1_1769496383656.jpg" alt="플레이랜드"
+            class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-[#011627] via-black/30 to-transparent"></div>
+
+          <div class="absolute bottom-0 left-0 right-0 p-10 md:p-14 transform transition-all duration-500">
+            <div class="flex items-center gap-3 mb-4 opacity-70">
+              <i data-lucide="play" class="w-6 h-6 text-blue-400"></i>
+              <span class="text-xs font-semibold tracking-widest text-blue-400">GAME PLAY</span>
+            </div>
+            <h3 class="text-4xl md:text-5xl font-bold text-white mb-4">플레이랜드</h3>
+            <p
+              class="text-lg text-gray-300 leading-relaxed mb-8 max-w-md opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              "멈추지 않는 즐거움, 게임 플레이의 정석"을 보여드립니다.</p>
+            <div
+              class="inline-flex items-center gap-3 px-8 py-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-sm font-bold text-white group-hover:bg-blue-400 group-hover:text-[#011627] transition-all duration-300">
+              CHANNEL VISIT <i data-lucide="external-link" class="w-4 h-4"></i>
+            </div>
           </div>
         </a>
       </div>
     </section>
+
+
 
     <!-- About Section -->
     <section id="about" class="container">
@@ -131,7 +154,7 @@
             사용자 경험(UX)과 기술적 완성도를 동시에 추구합니다.
           </p>
           <p style="color: var(--text-secondary); margin-bottom: 2rem;">
-            LandVerse는 연결성(Connection)과 다양성(Diversity)을 핵심 가치로 하는 종합 콘텐츠 허브입니다. 4개의 독립된 채널이 하나의 유니버스로 연결되어 최적화된 정보를
+            LandVerse는 연결성(Connection)과 다양성(Diversity)을 핵심 가치로 하는 종합 콘텐츠 허브입니다. 2개의 독립된 채널이 하나의 유니버스로 연결되어 최적화된 정보를
             제공합니다.
           </p>
         </div>
