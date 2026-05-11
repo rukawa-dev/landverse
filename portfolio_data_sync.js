@@ -4,7 +4,7 @@ import fs from 'fs';
 const SHEET_ID = '14LhJtDbJrInI-Dn_n4zNVJoRSpS_YVK5b0v0J8Hn51U';
 const GID = '0';
 const CSV_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${GID}`;
-const OUTPUT_FILE = './portfolio_data_sync.json';
+const OUTPUT_FILE = './public/portfolio_data_sync.json';
 
 function parseCSV(csvText) {
     const lines = csvText.split(/\r?\n/);
