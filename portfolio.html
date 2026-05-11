@@ -47,7 +47,7 @@
             align-items: center;
             text-align: center;
             position: relative;
-            background: url('portfolio_hero_bg.png') no-repeat center center/cover;
+            background: url('/portfolio_hero_bg.png') no-repeat center center/cover;
             padding: 0 20px;
         }
 
@@ -266,6 +266,54 @@
             font-size: 0.8rem;
         }
 
+        /* Private Project Styling */
+        .project-card.is-private {
+            cursor: default;
+            opacity: 0.7;
+            background: rgba(15, 23, 42, 0.4);
+        }
+
+        .project-card.is-private:hover {
+            transform: none;
+            border-color: var(--glass-border);
+            box-shadow: none;
+            background: rgba(15, 23, 42, 0.4);
+        }
+
+        .project-card.is-private .project-name {
+            color: var(--text-muted);
+        }
+
+        .project-card.is-private .project-number {
+            color: rgba(255, 255, 255, 0.01);
+        }
+
+        .project-card.is-private .project-arrow {
+            background: transparent;
+            border: 1px solid var(--glass-border);
+            color: var(--text-muted);
+            opacity: 0.5;
+        }
+
+        .project-card.is-private .tech-tag {
+            filter: saturate(0.2);
+            opacity: 0.6;
+        }
+
+        .private-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.8rem;
+            color: #f43f5e;
+            background: rgba(244, 63, 94, 0.1);
+            padding: 4px 12px;
+            border-radius: 6px;
+            margin-top: 20px;
+            font-weight: 500;
+            border: 1px solid rgba(244, 63, 94, 0.2);
+        }
+
         /* Animations */
         @keyframes fadeInDown {
             from {
@@ -320,7 +368,7 @@
 
         async function loadProjects() {
             try {
-                const response = await fetch('portfolio_data_sync.json');
+                const response = await fetch('/portfolio_data_sync.json');
                 const projects = await response.json();
                 
                 const getTagStyle = (tech) => {
@@ -336,13 +384,17 @@
                     card.className = 'project-card';
                     
                     const hasValidLink = project.link && project.link.startsWith('http');
-                    const projectLink = hasValidLink
-                        ? `<a href="${project.link}" target="_blank" class="project-link">프로젝트 상세보기 <i data-lucide="arrow-up-right"></i></a>` 
-                        : `<span style="color: var(--text-muted); font-size: 0.8rem; margin-top: 20px; display: inline-block;">${project.link || '(비공개 프로젝트)'}</span>`;
+                    
+                    let projectLinkHtml = '';
+                    let cardIcon = 'chevron-right';
 
-                    if (!hasValidLink) {
-                        card.style.cursor = 'default';
-                        card.classList.add('no-hover');
+                    if (hasValidLink) {
+                        projectLinkHtml = `<a href="${project.link}" target="_blank" class="project-link">프로젝트 상세보기 <i data-lucide="arrow-up-right"></i></a>`;
+                    } else {
+                        card.classList.add('is-private');
+                        cardIcon = 'lock';
+                        const privateText = project.link || '발주처 특성상 공개 불가';
+                        projectLinkHtml = `<div class="private-badge"><i data-lucide="lock" style="width:14px"></i> ${privateText}</div>`;
                     }
 
                     const displayNum = (projects.length - index).toString().padStart(2, '0');
@@ -363,10 +415,10 @@
                                 <i data-lucide="building"></i>
                                 <span>발주처: ${project.client}</span>
                             </div>
-                            ${projectLink}
+                            ${projectLinkHtml}
                         </div>
                         <div class="project-arrow">
-                            <i data-lucide="chevron-right"></i>
+                            <i data-lucide="${cardIcon}"></i>
                         </div>
                     `;
                     
