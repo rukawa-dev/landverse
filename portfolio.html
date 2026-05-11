@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>강석민 | Web Publisher Portfolio</title>
+    <meta name="description" content="웹퍼블리셔 강석민의 프로젝트 포트폴리오입니다.">
+    
+    <!-- Google Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Styles -->
+    <style>
+        :root {
+            --primary: #6366f1;
+            --secondary: #a855f7;
+            --bg-dark: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            background: url('portfolio_hero_bg.png') no-repeat center center/cover;
+            padding: 0 20px;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(15, 23, 42, 0.4), var(--bg-dark));
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #fff, var(--primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            max-width: 600px;
+        }
+
+        /* Portfolio Section */
+        .container {
+            max-width: 1200px;
+            margin: -50px auto 100px;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .section-title::after {
+            content: '';
+            height: 2px;
+            flex-grow: 1;
+            background: linear-gradient(to right, var(--primary), transparent);
+        }
+
+        /* Project Grid */
+        .project-list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .project-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px) scale(1.01);
+            border-color: var(--primary);
+            box-shadow: 0 20px 40px rgba(99, 102, 241, 0.2);
+            background: rgba(30, 41, 59, 0.9);
+        }
+
+        .project-info {
+            flex: 1;
+            min-width: 300px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .project-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .project-name {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: -0.02em;
+        }
+
+        .tech-tag {
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(168, 85, 247, 0.2));
+            color: #c7d2fe;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            z-index: 3;
+            backdrop-filter: blur(5px);
+        }
+
+        .project-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 10px;
+        }
+
+        .project-meta i {
+            width: 18px;
+            color: var(--primary);
+        }
+
+        /* Decorative Number on the Right */
+        .project-number {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 8rem;
+            font-weight: 800;
+            color: rgba(255, 255, 255, 0.03);
+            pointer-events: none;
+            z-index: 1;
+            font-family: 'Outfit', sans-serif;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .project-card:hover .project-number {
+            color: rgba(99, 102, 241, 0.08);
+            transform: translateY(-55%) scale(1.1);
+        }
+
+        /* Arrow Icon on the Right */
+        .project-arrow {
+            position: relative;
+            z-index: 2;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-muted);
+            transition: all 0.3s ease;
+            margin-left: 20px;
+        }
+
+        .project-card:hover .project-arrow {
+            background: var(--primary);
+            color: #fff;
+            transform: translateX(5px);
+        }
+
+        .project-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+            padding: 8px 0;
+        }
+
+        .project-link:hover {
+            color: var(--secondary);
+            gap: 12px;
+        }
+
+        .project-link::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 2;
+        }
+
+        .project-link:hover {
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .project-link i {
+            font-size: 0.8rem;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 50px 20px;
+            border-top: 1px solid var(--glass-border);
+            color: var(--text-muted);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .project-card { padding: 20px; }
+            .project-header { flex-direction: column; align-items: flex-start; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>강석민</h1>
+            <p>Web Publisher & Frontend Developer Portfolio</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <h2 class="section-title">PROJECTS</h2>
+        
+        <div class="project-list" id="projectList">
+            <!-- Projects will be injected here -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 강석민. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const projectList = document.getElementById('projectList');
+
+        async function loadProjects() {
+            try {
+                const response = await fetch('portfolio_data_sync.json');
+                const projects = await response.json();
+                
+                const getTagStyle = (tech) => {
+                    const t = (tech || '').toLowerCase();
+                    if (t.includes('react')) return 'background: linear-gradient(135deg, rgba(97, 218, 251, 0.2), rgba(0, 122, 204, 0.2)); color: #61dafb; border-color: rgba(97, 218, 251, 0.3);';
+                    if (t.includes('vue')) return 'background: linear-gradient(135deg, rgba(66, 184, 131, 0.2), rgba(53, 73, 94, 0.2)); color: #42b883; border-color: rgba(66, 184, 131, 0.3);';
+                    if (t.includes('static')) return 'background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(168, 85, 247, 0.2)); color: #c7d2fe; border-color: rgba(99, 102, 241, 0.3);';
+                    return 'background: linear-gradient(135deg, rgba(148, 163, 184, 0.2), rgba(71, 85, 105, 0.2)); color: #cbd5e1; border-color: rgba(148, 163, 184, 0.3);';
+                };
+
+                projects.forEach((project, index) => {
+                    const card = document.createElement('div');
+                    card.className = 'project-card';
+                    
+                    const hasValidLink = project.link && project.link.startsWith('http');
+                    const projectLink = hasValidLink
+                        ? `<a href="${project.link}" target="_blank" class="project-link">프로젝트 상세보기 <i data-lucide="arrow-up-right"></i></a>` 
+                        : `<span style="color: var(--text-muted); font-size: 0.8rem; margin-top: 20px; display: inline-block;">${project.link || '(비공개 프로젝트)'}</span>`;
+
+                    if (!hasValidLink) {
+                        card.style.cursor = 'default';
+                        card.classList.add('no-hover');
+                    }
+
+                    const displayNum = (projects.length - index).toString().padStart(2, '0');
+                    const techStyle = getTagStyle(project.tech);
+
+                    card.innerHTML = `
+                        <div class="project-number">${displayNum}</div>
+                        <span class="tech-tag" style="${techStyle}">${project.tech || 'Web'}</span>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <h3 class="project-name">${project.name}</h3>
+                            </div>
+                            <div class="project-meta">
+                                <i data-lucide="calendar"></i>
+                                <span>${project.start} ~ ${project.end}</span>
+                            </div>
+                            <div class="project-meta">
+                                <i data-lucide="building"></i>
+                                <span>발주처: ${project.client}</span>
+                            </div>
+                            ${projectLink}
+                        </div>
+                        <div class="project-arrow">
+                            <i data-lucide="chevron-right"></i>
+                        </div>
+                    `;
+                    
+                    projectList.appendChild(card);
+                });
+                
+                // Initialize Lucide icons
+                lucide.createIcons();
+            } catch (error) {
+                console.error('Error loading projects:', error);
+                projectList.innerHTML = '<p style="text-align: center; color: var(--text-muted);">프로젝트 데이터를 불러오는 중 오류가 발생했습니다.</p>';
+            }
+        }
+
+        loadProjects();
+    </script>
+</body>
+</html>

@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "download": "node portfolio_data_sync.js"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.2.1",

@@ -1,0 +1,1306 @@
+[
+  {
+    "name": "VW 자사 홈페이지",
+    "link": "https://www.v-w.co.kr/",
+    "tech": "Static Web",
+    "start": "2025. 11. 01",
+    "end": "2025. 11. 28",
+    "role": "1인 100%",
+    "client": "브이더블유"
+  },
+  {
+    "name": "씨네큐브",
+    "link": "https://www.cinecube.co.kr/",
+    "tech": "Static Web",
+    "start": "2025. 07. 07",
+    "end": "2025. 10. 31",
+    "role": "1인 100%",
+    "client": "씨네큐브"
+  },
+  {
+    "name": "KQENT",
+    "link": "발주처 특성상 공개 불가",
+    "tech": "Static Web",
+    "start": "2025. 06. 20",
+    "end": "2025. 06. 13",
+    "role": "1인 100%",
+    "client": "KQ ENTERTAINMENT"
+  },
+  {
+    "name": "한진80주녁 역사관",
+    "link": "https://80years.hanjin.com/",
+    "tech": "Static Web",
+    "start": "2025. 04. 10",
+    "end": "2025. 06. 27",
+    "role": "1인 100%",
+    "client": "한진"
+  },
+  {
+    "name": "태광그룹 다국어",
+    "link": "https://www.taekwanggroup.co.kr/ko/main",
+    "tech": "Static Web",
+    "start": "2024. 12. 24",
+    "end": "2025. 02. 28",
+    "role": "1인 100%",
+    "client": "태광그룹"
+  },
+  {
+    "name": "넷앤드 영문",
+    "link": "https://netand.io/en/main",
+    "tech": "Static Web",
+    "start": "2024. 11. 14",
+    "end": "2025. 01. 14",
+    "role": "1인 100%",
+    "client": "넷앤드"
+  },
+  {
+    "name": "오비오 다국어",
+    "link": "https://www.ovio.com/",
+    "tech": "Static Web",
+    "start": "2024. 11. 05",
+    "end": "2025. 02. 24",
+    "role": "1인 100%",
+    "client": "오비오"
+  },
+  {
+    "name": "렛서AI",
+    "link": "https://letsur.ai/",
+    "tech": "Static Web",
+    "start": "2023. 11. 09",
+    "end": "2023. 11. 24",
+    "role": "1인 100%",
+    "client": "렛서AI"
+  },
+  {
+    "name": "엠허브제노플랜",
+    "link": "https://www.mhubgenoplan.com/",
+    "tech": "Static Web",
+    "start": "2023. 08. 16",
+    "end": "2023. 10. 25",
+    "role": "1인 100%",
+    "client": "엠허브제노플랜"
+  },
+  {
+    "name": "TBH SHOP 리뉴얼",
+    "link": "https://tbhshop.co.kr/",
+    "tech": "React.js",
+    "start": "2023. 03. 29",
+    "end": "2024. 01. 31",
+    "role": "1인 100%",
+    "client": "TBH"
+  },
+  {
+    "name": "블랙야크 메인페이지 리뉴얼",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2023. 01. 20",
+    "end": "2023. 03. 23",
+    "role": "1인 100%",
+    "client": "블랙야크"
+  },
+  {
+    "name": "커머스온 자사홈페이지",
+    "link": "https://www.commerceon.co.kr/",
+    "tech": "React.js",
+    "start": "2022. 12. 12",
+    "end": "2023. 01. 30",
+    "role": "1인 100%",
+    "client": "커머스온"
+  },
+  {
+    "name": "UX ENM",
+    "link": "https://www.uxplusenm.com/main",
+    "tech": "Vue.js",
+    "start": "2022. 05. 02",
+    "end": "2022. 07. 29",
+    "role": "1인 100%",
+    "client": "유엑스플러스엔진"
+  },
+  {
+    "name": "마피아 TV",
+    "link": "https://www.mafiatv.co.kr/",
+    "tech": "Vue.js",
+    "start": "2020. 09. 01",
+    "end": "2022. 07. 29",
+    "role": "1인 100%",
+    "client": "유엑스플러스엔진"
+  },
+  {
+    "name": "아이스크림미디어 대표홈 베트남",
+    "link": "https://i-scream.vn/",
+    "tech": "Static Web",
+    "start": "2020. 05. 08",
+    "end": "2020. 05. 14",
+    "role": "1인 100%",
+    "client": "아이스크림미디어"
+  },
+  {
+    "name": "가톨릭대 LINC 사업단",
+    "link": "https://cukadmin.catholic.ac.kr/lincplus/index.html",
+    "tech": "Static Web",
+    "start": "2020. 04. 21",
+    "end": "2020. 04. 23",
+    "role": "1인 100%",
+    "client": "가톨릭대"
+  },
+  {
+    "name": "가톨릭대 창업대학",
+    "link": "https://startup.catholic.ac.kr/startup/index.html",
+    "tech": "Static Web",
+    "start": "2020. 03. 18",
+    "end": "2020. 03. 19",
+    "role": "1인 100%",
+    "client": "가톨릭대"
+  },
+  {
+    "name": "아이스크림미디어 대표홈",
+    "link": "https://www.i-screammedia.com/index.do",
+    "tech": "Static Web",
+    "start": "2020. 03. 03",
+    "end": "2020. 05. 18",
+    "role": "1인 100%",
+    "client": "아이스크림미디어"
+  },
+  {
+    "name": "한국산업기술대학 교양 기초 교육원",
+    "link": "http://generaledu.kpu.ac.kr/generaleduindex.do",
+    "tech": "Static Web",
+    "start": "2020. 02. 03",
+    "end": "2020. 02. 10",
+    "role": "1인 100%",
+    "client": "한국산업기술대"
+  },
+  {
+    "name": "한국산업기술대학 교육혁신원",
+    "link": "http://eduinno.kpu.ac.kr/eduinnoindex.do",
+    "tech": "Static Web",
+    "start": "2020. 01. 20",
+    "end": "2020. 01. 29",
+    "role": "1인 100%",
+    "client": "한국산업기술대"
+  },
+  {
+    "name": "한국산업기술대학 미래대학",
+    "link": "http://mirae.kpu.ac.kr/miraeindex.do",
+    "tech": "Static Web",
+    "start": "2020. 01. 10",
+    "end": "2020. 01. 17",
+    "role": "1인 100%",
+    "client": "한국산업기술대"
+  },
+  {
+    "name": "서강대 국제교류관리 프로그램",
+    "link": "http://goabroad.sogang.ac.kr/enter/html/main/main.asp",
+    "tech": "Static Web",
+    "start": "2019. 12. 26",
+    "end": "2019. 12. 30",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "시공테크 대표홈 영문",
+    "link": "https://www.sigongtech.com/en/index.do",
+    "tech": "Static Web",
+    "start": "2019. 12. 16",
+    "end": "2019. 12. 19",
+    "role": "1인 100%",
+    "client": "시공테크"
+  },
+  {
+    "name": "홍익대 창작새길",
+    "link": "http://makerspace.hongik.ac.kr/front_html/index.html",
+    "tech": "Static Web",
+    "start": "2019. 11. 27",
+    "end": "2019. 12. 20",
+    "role": "1인 100%",
+    "client": "홍익대"
+  },
+  {
+    "name": "한국산업기술대 대학혁신지원 사업단",
+    "link": "http://thenew.kpu.ac.kr/index.do",
+    "tech": "Static Web",
+    "start": "2019. 11. 19",
+    "end": "2019. 11. 22",
+    "role": "1인 100%",
+    "client": "한국산업기술대"
+  },
+  {
+    "name": "세종대 기술이전센터",
+    "link": "http://sejongtlo.com/index.do",
+    "tech": "Static Web",
+    "start": "2019. 11. 11",
+    "end": "2019. 11. 14",
+    "role": "1인 100%",
+    "client": "세종대"
+  },
+  {
+    "name": "시공테크 대표홈",
+    "link": "https://www.sigongtech.co.kr/index.do",
+    "tech": "Static Web",
+    "start": "2019. 10. 29",
+    "end": "2019. 11. 12",
+    "role": "1인 100%",
+    "client": "시공테크"
+  },
+  {
+    "name": "아이스크림에듀 홈런",
+    "link": "https://www.home-learn.co.kr/main/Index.do",
+    "tech": "Static Web",
+    "start": "2019. 08. 12",
+    "end": "2019. 11. 04",
+    "role": "1인 100%",
+    "client": "아이스크림에듀"
+  },
+  {
+    "name": "세종대 컬리너리스쿨",
+    "link": "http://scia.sejong.ac.kr/index.do",
+    "tech": "Static Web",
+    "start": "2019. 07. 29",
+    "end": "2019. 08. 09",
+    "role": "1인 100%",
+    "client": "세종대"
+  },
+  {
+    "name": "홍익대 미술대학",
+    "link": "https://cfa.hongik.ac.kr/index.do",
+    "tech": "Static Web",
+    "start": "2019. 06. 24",
+    "end": "2019. 06. 27",
+    "role": "1인 100%",
+    "client": "홍익대"
+  },
+  {
+    "name": "가톨릭대 대표홈 웹접근성 추가 작업",
+    "link": "https://www.catholic.ac.kr/index.do",
+    "tech": "Static Web",
+    "start": "2019. 05. 23",
+    "end": "2019. 07. 05",
+    "role": "1인 100%",
+    "client": "가톨릭대"
+  },
+  {
+    "name": "아이스크림에듀 회사소개",
+    "link": "https://www.i-screamedu.co.kr/",
+    "tech": "Static Web",
+    "start": "2019. 05. 13",
+    "end": "2019. 06. 04",
+    "role": "1인 100%",
+    "client": "아이스크림미디어"
+  },
+  {
+    "name": "산기대 대표홈 웹접근성 수정",
+    "link": "https://www.tukorea.ac.kr/",
+    "tech": "Static Web",
+    "start": "2019. 04. 04",
+    "end": "2019. 04. 10",
+    "role": "1인 100%",
+    "client": "한국산업기술대"
+  },
+  {
+    "name": "가톨릭대 CUK NEWS ROOM",
+    "link": "https://new.catholic.ac.kr/cuknewsroommain.do",
+    "tech": "Static Web",
+    "start": "2019. 02. 26",
+    "end": "2019. 02. 26",
+    "role": "1인 100%",
+    "client": "가톨릭대"
+  },
+  {
+    "name": "가톨릭대 전공홈페이지",
+    "link": "https://cukadmin.catholic.ac.kr/csie/index.html",
+    "tech": "Static Web",
+    "start": "2019. 02. 07",
+    "end": "2019. 02. 11",
+    "role": "1인 100%",
+    "client": "가톨릭대"
+  },
+  {
+    "name": "가톨릭대 대표홈 영문",
+    "link": "https://www.catholic.ac.kr/english/main.do",
+    "tech": "Static Web",
+    "start": "2019. 02. 19",
+    "end": "2019. 02. 21",
+    "role": "1인 100%",
+    "client": "가톨릭대"
+  },
+  {
+    "name": "가톨릭대 부속기관",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2019. 01. 21",
+    "end": "2019. 04. 30",
+    "role": "1인 100%",
+    "client": "가톨릭대"
+  },
+  {
+    "name": "세종대 산업대학원",
+    "link": "https://www.emba.ac.kr/index.do",
+    "tech": "Static Web",
+    "start": "2019. 01. 02",
+    "end": "2019. 01. 16",
+    "role": "1인 100%",
+    "client": "세종대"
+  },
+  {
+    "name": "가톨릭대 대표홈",
+    "link": "https://www.catholic.ac.kr/index.do",
+    "tech": "Static Web",
+    "start": "2018. 11. 26",
+    "end": "2019. 01. 02",
+    "role": "1인 100%",
+    "client": "가톨릭대"
+  },
+  {
+    "name": "세종대 학생경력개발시스템",
+    "link": "https://udream.sejong.ac.kr/",
+    "tech": "Static Web",
+    "start": "2018. 11. 21",
+    "end": "2018. 11. 23",
+    "role": "1인 100%",
+    "client": "세종대"
+  },
+  {
+    "name": "세종대 웹스타일리스트 템플릿 - 교수",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2018. 10. 11",
+    "end": "2018. 10. 12",
+    "role": "1인 100%",
+    "client": "세종대"
+  },
+  {
+    "name": "세종대 웹스타일리스트 템플릿 - 학과",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2018. 10. 11",
+    "end": "2018. 10. 12",
+    "role": "1인 100%",
+    "client": "세종대"
+  },
+  {
+    "name": "국토발전전시관 영문",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2018. 08. 14",
+    "end": "2018. 08. 14",
+    "role": "1인 100%",
+    "client": "국토발전전시관"
+  },
+  {
+    "name": "평택대 대표홈 모바일",
+    "link": "https://www.ptu.ac.kr/www/index.do",
+    "tech": "Static Web",
+    "start": "2018. 06. 18",
+    "end": "2018. 07. 03",
+    "role": "1인 100%",
+    "client": "평택대"
+  },
+  {
+    "name": "홍익대 대학원 개편",
+    "link": "https://grad.hongik.ac.kr/grad/speciald_1.html",
+    "tech": "Static Web",
+    "start": "2018. 05. 15",
+    "end": "2018. 07. 26",
+    "role": "1인 100%",
+    "client": "홍익대"
+  },
+  {
+    "name": "연세대 공학교육혁신센터 리뉴얼",
+    "link": "https://engineering.yonsei.ac.kr/engineering/center/center_1.do",
+    "tech": "Static Web",
+    "start": "2018. 03. 05",
+    "end": "2018. 03. 16",
+    "role": "1인 100%",
+    "client": "연세대"
+  },
+  {
+    "name": "서강대 국제하계대학",
+    "link": "https://scc.sogang.ac.kr/summer/summer01_2.html",
+    "tech": "Static Web",
+    "start": "2018. 03. 02",
+    "end": "2018. 03. 02",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "지스톰 대표홈",
+    "link": "http://www.z-storm.co.kr/",
+    "tech": "Static Web",
+    "start": "2018. 02. 23",
+    "end": "2018. 02. 27",
+    "role": "1인 100%",
+    "client": "지스톰"
+  },
+  {
+    "name": "평택대 대표홈 메인페이지 리뉴얼",
+    "link": "https://www.ptu.ac.kr/www/index.do",
+    "tech": "Static Web",
+    "start": "2018. 02. 21",
+    "end": "2018. 02. 22",
+    "role": "1인 100%",
+    "client": "평택대"
+  },
+  {
+    "name": "세종대 공학교육인증센터",
+    "link": "http://www.sejong.ac.kr/unilife/system_accredit.html",
+    "tech": "Static Web",
+    "start": "2018. 01. 31",
+    "end": "2018. 03. 14",
+    "role": "1인 100%",
+    "client": "세종대"
+  },
+  {
+    "name": "서강대 성찰과성장 온라인 신청시스템",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2018. 01. 19",
+    "end": "2018. 01. 19",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "참좋은인터넷 대표 홈페이지",
+    "link": "https://sogood.co.kr/",
+    "tech": "Static Web",
+    "start": "2018. 01. 11",
+    "end": "2018. 07. 26",
+    "role": "1인 100%",
+    "client": "참좋은인터넷"
+  },
+  {
+    "name": "국립어린이과학관 무인안내 하이브리드앱",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 12. 27",
+    "end": "2018. 01. 05",
+    "role": "1인 100%",
+    "client": "국립어린이과학관"
+  },
+  {
+    "name": "서울여대 웹접근성 수정",
+    "link": "https://www.swu.ac.kr/",
+    "tech": "Static Web",
+    "start": "2017. 11. 14",
+    "end": "2018. 05. 02",
+    "role": "1인 100%",
+    "client": "서울여대"
+  },
+  {
+    "name": "서강대 학생생활상담연구소 신청프로그램",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 11. 15",
+    "end": "2017. 11. 16",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "국토발전전시관 소개 하이브리드앱",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2018. 03. 06",
+    "end": "2018. 03. 14",
+    "role": "1인 100%",
+    "client": "국토발전전시관"
+  },
+  {
+    "name": "국토발전전시관 반응형",
+    "link": "https://www.molit.go.kr/molitum/intro.do",
+    "tech": "Static Web",
+    "start": "2017. 09. 22",
+    "end": "2017. 09. 29",
+    "role": "1인 100%",
+    "client": "국토발전전시관"
+  },
+  {
+    "name": "평택대 빌더, CMS 퍼블리싱",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 09. 05",
+    "end": "2017. 09. 08",
+    "role": "1인 100%",
+    "client": "평택대"
+  },
+  {
+    "name": "대진대 대표홈 모바일 수정",
+    "link": "https://www.daejin.ac.kr/daejin/index.do",
+    "tech": "Static Web",
+    "start": "2017. 09. 01",
+    "end": "2017. 09. 05",
+    "role": "1인 100%",
+    "client": "대진대"
+  },
+  {
+    "name": "국립어린이과학관",
+    "link": "https://www.csc.go.kr/index.do",
+    "tech": "Static Web",
+    "start": "2017. 08. 24",
+    "end": "2017. 12. 28",
+    "role": "1인 100%",
+    "client": "국립어린이과학관"
+  },
+  {
+    "name": "서울여대 국제교류단",
+    "link": "https://www.swu.ac.kr/irindex.do",
+    "tech": "Static Web",
+    "start": "2017. 08. 09",
+    "end": "2017. 08. 11",
+    "role": "1인 100%",
+    "client": "서울여대"
+  },
+  {
+    "name": "평택대 접근성 수정",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 08. 09",
+    "end": "2017. 08. 11",
+    "role": "1인 100%",
+    "client": "평택대"
+  },
+  {
+    "name": "홍익대 모바일",
+    "link": "https://www.hongik.ac.kr/kr/index.do",
+    "tech": "Static Web",
+    "start": "2017. 08. 07",
+    "end": "2017. 08. 09",
+    "role": "1인 100%",
+    "client": "홍익대"
+  },
+  {
+    "name": "서강대 환류 체계 시스템 2017.07.27",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 07. 26",
+    "end": "2017. 07. 27",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "서울여대 대학원 모바일",
+    "link": "https://www.swu.ac.kr/mgrdindex.do",
+    "tech": "Static Web",
+    "start": "2017. 07. 21",
+    "end": "2017. 07. 25",
+    "role": "1인 100%",
+    "client": "서울여대"
+  },
+  {
+    "name": "서울여대 대학원",
+    "link": "https://www.swu.ac.kr/grdindex.do",
+    "tech": "Static Web",
+    "start": "2017. 07. 06",
+    "end": "2017. 07. 18",
+    "role": "1인 100%",
+    "client": "서울여대"
+  },
+  {
+    "name": "서울여대 대표홈 중문",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 07. 05",
+    "end": "2017. 08. 02",
+    "role": "1인 100%",
+    "client": "서울여대"
+  },
+  {
+    "name": "서울여대 대표홈 영문",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 07. 05",
+    "end": "2017. 08. 02",
+    "role": "1인 100%",
+    "client": "서울여대"
+  },
+  {
+    "name": "국립항공박물관",
+    "link": "https://www.aviation.or.kr/index.do",
+    "tech": "Static Web",
+    "start": "2017. 06. 26",
+    "end": "2017. 09. 15",
+    "role": "1인 100%",
+    "client": "국립항공박물관"
+  },
+  {
+    "name": "서울여대 대표홈 모바일",
+    "link": "https://www.swu.ac.kr/mindex.do",
+    "tech": "Static Web",
+    "start": "2017. 06. 15",
+    "end": "2017. 07. 05",
+    "role": "1인 100%",
+    "client": "서울여대"
+  },
+  {
+    "name": "평택대 교수학습지원센터",
+    "link": "https://ctl.ptu.ac.kr/ctl/index.do",
+    "tech": "Static Web",
+    "start": "2017. 05. 17",
+    "end": "2017. 05. 18",
+    "role": "1인 100%",
+    "client": "평택대"
+  },
+  {
+    "name": "서강대 발전기금",
+    "link": "https://give.sogang.ac.kr/",
+    "tech": "Static Web",
+    "start": "2017. 05. 22",
+    "end": "2017. 05. 25",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "서울여대 대표홈",
+    "link": "https://www.swu.ac.kr/index.do",
+    "tech": "Static Web",
+    "start": "2017. 05. 22",
+    "end": "2017. 07. 05",
+    "role": "1인 100%",
+    "client": "서울여대"
+  },
+  {
+    "name": "평택대 대표홈 중문",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 05. 19",
+    "end": "2017. 05. 24",
+    "role": "1인 100%",
+    "client": "평택대"
+  },
+  {
+    "name": "평택대 대표홈 영문",
+    "link": "https://english.ptu.ac.kr/english/index.do",
+    "tech": "Static Web",
+    "start": "2017. 05. 17",
+    "end": "2017. 05. 24",
+    "role": "1인 100%",
+    "client": "평택대"
+  },
+  {
+    "name": "서강대 위클리",
+    "link": "https://scc.sogang.ac.kr/fund/newsletters/nl383/",
+    "tech": "Static Web",
+    "start": "2017. 04. 25",
+    "end": "2017. 04. 26",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "서강대 교양품질관리제(알바트로스)",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 04. 21",
+    "end": "2017. 04. 24",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "평택대 부속기관 CMS템플릿",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 04. 18",
+    "end": "2017. 04. 20",
+    "role": "1인 100%",
+    "client": "평택대"
+  },
+  {
+    "name": "서강대 해외대학학점인정시스템",
+    "link": "https://overseas.sogang.ac.kr/",
+    "tech": "Static Web",
+    "start": "2017. 05. 10",
+    "end": "2017. 05. 12",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "서강대 대표홈 모바일",
+    "link": "https://www.sogang.ac.kr/ko/home",
+    "tech": "Static Web",
+    "start": "2017. 03. 29",
+    "end": "2017. 04. 06",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "서강대 MOT 대학원 영문",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 03. 24",
+    "end": "2017. 03. 27",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "서강대 MOT 대학원 국문",
+    "link": "https://sgmot.sogang.ac.kr/sogangmotindex.do",
+    "tech": "Static Web",
+    "start": "2017. 03. 24",
+    "end": "2017. 03. 27",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "평택대 청렴행정",
+    "link": "https://clean.ptu.ac.kr/clean/index.do",
+    "tech": "Static Web",
+    "start": "2017. 03. 22",
+    "end": "2017. 03. 22",
+    "role": "1인 100%",
+    "client": "평택대"
+  },
+  {
+    "name": "서강대 학생설계전공",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 03. 06",
+    "end": "2017. 03. 08",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "서강대학교 대표 홈페이지",
+    "link": "https://www.sogang.ac.kr/ko/home",
+    "tech": "Static Web",
+    "start": "2017. 03. 10",
+    "end": "2017. 04. 20",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "서강대 부속기관 템플릿",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 02. 27",
+    "end": "2017. 02. 28",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "서강대 런쳐앱",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 02. 23",
+    "end": "2017. 02. 27",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "서강대 웹스타일리스트(개인용) 3안",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 02. 21",
+    "end": "2017. 02. 24",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "세종대 대표홈 리뉴얼",
+    "link": "http://www.sejong.ac.kr/",
+    "tech": "Static Web",
+    "start": "2017. 02. 15",
+    "end": "2017. 02. 21",
+    "role": "1인 100%",
+    "client": "세종대"
+  },
+  {
+    "name": "호남대 공학교육센터",
+    "link": "https://abeek.honam.ac.kr/index.do",
+    "tech": "Static Web",
+    "start": "2017. 01. 18",
+    "end": "2017. 01. 20",
+    "role": "1인 100%",
+    "client": "호남대"
+  },
+  {
+    "name": "한밭대 공학교육혁신센터",
+    "link": "https://icee.hanbat.ac.kr/main/main.action",
+    "tech": "Static Web",
+    "start": "2017. 01. 11",
+    "end": "2017. 01. 16",
+    "role": "1인 100%",
+    "client": "한밭대"
+  },
+  {
+    "name": "남서울대 TQM_HOME",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 02. 03",
+    "end": "2017. 02. 06",
+    "role": "1인 100%",
+    "client": "남서울대"
+  },
+  {
+    "name": "남서울대 TQM_SYSTEM",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2017. 01. 09",
+    "end": "2017. 01. 09",
+    "role": "1인 100%",
+    "client": "남서울대"
+  },
+  {
+    "name": "평택대 대학원",
+    "link": "https://graduate.ptu.ac.kr/graduate/index.do",
+    "tech": "Static Web",
+    "start": "2016. 12. 29",
+    "end": "2017. 01. 03",
+    "role": "1인 100%",
+    "client": "평택대"
+  },
+  {
+    "name": "서강대 ABEEK HOME",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2016. 12. 05",
+    "end": "2016. 12. 13",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "서원대 SCQM SYSTEM",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2016. 10. 27",
+    "end": "2016. 11. 29",
+    "role": "1인 100%",
+    "client": "서원대"
+  },
+  {
+    "name": "서강대 ABEEK SYSTEM",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2016. 11. 18",
+    "end": "2016. 12. 30",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "서원대 SCQM HOME",
+    "link": "2017-01-20 : 메인페이지 디자인 전면 수정",
+    "start": "",
+    "end": "",
+    "role": "",
+    "client": ""
+  },
+  {
+    "name": "세종대학교 소프트웨어중심대학",
+    "link": "https://home.sejong.ac.kr/~swc/",
+    "tech": "Static Web",
+    "start": "2016. 10. 17",
+    "end": "2016. 10. 18",
+    "role": "1인 100%",
+    "client": "세종대"
+  },
+  {
+    "name": "평택대학교 사회봉사센터",
+    "link": "https://psc.ptu.ac.kr/psc/index.do",
+    "tech": "Static Web",
+    "start": "2016. 10. 14",
+    "end": "2016. 10. 17",
+    "role": "1인 100%",
+    "client": "평택대"
+  },
+  {
+    "name": "평택대학교 입학안내",
+    "link": "https://entrance.ptu.ac.kr/entrance/index.do",
+    "tech": "Static Web",
+    "start": "2016. 10. 10",
+    "end": "2016. 10. 12",
+    "role": "1인 100%",
+    "client": "평택대"
+  },
+  {
+    "name": "서강대학교_SSOC",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2016. 09. 28",
+    "end": "2016. 10. 05",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "서강대학교 SW교육센터",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2016. 09. 23",
+    "end": "2016. 09. 27",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "서강대학교 청년광장",
+    "link": "https://sc.sogang.ac.kr/soriindex.do",
+    "tech": "Static Web",
+    "start": "2016. 09. 09",
+    "end": "2016. 09. 12",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "평택대학교 대표홈",
+    "link": "https://www.ptu.ac.kr/www/index.do",
+    "tech": "Static Web",
+    "start": "2016. 08. 08",
+    "end": "2016. 08. 17",
+    "role": "1인 100%",
+    "client": "평택대"
+  },
+  {
+    "name": "한밭대 인재인증제",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2016. 06. 14",
+    "end": "2016. 06. 22",
+    "role": "1인 100%",
+    "client": "한밭대"
+  },
+  {
+    "name": "홍익대학교 학과 홈페이지 템플릿 퍼블리싱",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2016. 06. 09",
+    "end": "2016. 06. 09",
+    "role": "1인 100%",
+    "client": "홍익대"
+  },
+  {
+    "name": "서강대학교 유레카",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2016. 06. 02",
+    "end": "2016. 06. 08",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "아워홈 웹접근성 준수 수정",
+    "link": "http://www.ourhome.co.kr",
+    "tech": "Static Web",
+    "start": "2016. 05. 24",
+    "end": "2016. 07. 14",
+    "role": "1인 100%",
+    "client": "아워홈"
+  },
+  {
+    "name": "만오교양대학 홈페이지",
+    "link": "https://www.bufs.ac.kr/bbs/group.php?gr_id=arche",
+    "tech": "Static Web",
+    "start": "2016. 05. 17",
+    "end": "2016. 05. 20",
+    "role": "1인 100%",
+    "client": "만오교양대"
+  },
+  {
+    "name": "서강대학교_GLEE",
+    "link": "https://glee.sogang.ac.kr/index.do",
+    "tech": "Static Web",
+    "start": "2016. 05. 09",
+    "end": "2016. 05. 13",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "동덕여대 메인페이지 리뉴얼",
+    "link": "https://www.dongduk.ac.kr",
+    "tech": "Static Web",
+    "start": "2016. 05. 04",
+    "end": "2016. 05. 09",
+    "role": "1인 100%",
+    "client": "동덕여대"
+  },
+  {
+    "name": "서강대학교 전인교육원",
+    "link": "https://scc.sogang.ac.kr/wholeperson/index_new.html",
+    "tech": "Static Web",
+    "start": "2016. 04. 25",
+    "end": "2016. 04. 28",
+    "role": "1인 100%",
+    "client": "서강대"
+  },
+  {
+    "name": "홍익대학교 산학협력단",
+    "link": "https://research.hongik.ac.kr/index.do",
+    "tech": "Static Web",
+    "start": "2016. 04. 11",
+    "end": "2016. 04. 19",
+    "role": "1인 100%",
+    "client": "홍익대"
+  },
+  {
+    "name": "리틀팍스 어학원 웹 리뉴얼",
+    "link": "http://school.littlefox.co.kr/main/index.php",
+    "tech": "Static Web",
+    "start": "2016. 03. 16",
+    "end": "2016. 04. 14",
+    "role": "1인 100%",
+    "client": "리틀팍스"
+  },
+  {
+    "name": "리틀팍스 회사사이트",
+    "link": "http://company.littlefox.com",
+    "tech": "Static Web",
+    "start": "2015. 11. 25",
+    "end": "2016. 04. 14",
+    "role": "1인 100%",
+    "client": "리틀팍스"
+  },
+  {
+    "name": "리틀팍스 팍쓰쌤",
+    "link": "http://sam.littlefox.co.kr/",
+    "tech": "Static Web",
+    "start": "2015. 08. 12",
+    "end": "2016. 04. 14",
+    "role": "1인 100%",
+    "client": "리틀팍스"
+  },
+  {
+    "name": "리틀팍스 중국어 교육",
+    "link": "http://chinese.littlefox.com",
+    "tech": "Static Web",
+    "start": "2015. 04. 15",
+    "end": "2016. 04. 14",
+    "role": "1인 100%",
+    "client": "리틀팍스"
+  },
+  {
+    "name": "리틀팍스  모바일",
+    "link": "http://m.littlefox.co.kr/",
+    "tech": "Static Web",
+    "start": "2015. 01. 21",
+    "end": "2016. 04. 14",
+    "role": "1인 100%",
+    "client": "리틀팍스"
+  },
+  {
+    "name": "리틀팍스 어학원",
+    "link": "http://school.littlefox.co.kr/",
+    "tech": "Static Web",
+    "start": "2014. 11. 11",
+    "end": "2016. 04. 14",
+    "role": "1인 100%",
+    "client": "리틀팍스"
+  },
+  {
+    "name": "팍스스쿨",
+    "link": "http://foxschool.littlefox.co.kr/home/",
+    "tech": "Static Web",
+    "start": "2014. 11. 11",
+    "end": "2016. 04. 14",
+    "role": "1인 100%",
+    "client": "리틀팍스"
+  },
+  {
+    "name": "리틀팍스",
+    "link": "http://www.littlefox.co.kr/ko/main",
+    "tech": "Static Web",
+    "start": "2014. 11. 11",
+    "end": "2016. 04. 14",
+    "role": "1인 100%",
+    "client": "리틀팍스"
+  },
+  {
+    "name": "OKmall 쇼핑몰",
+    "link": "http://www.okmall.com/",
+    "tech": "Static Web",
+    "start": "2014. 08. 21",
+    "end": "2014. 10. 09",
+    "role": "2인 30%",
+    "client": "오케이몰"
+  },
+  {
+    "name": "인성실업 홈페이지",
+    "link": "http://www.insungnet.co.kr/",
+    "tech": "Static Web",
+    "start": "2014. 04. 17",
+    "end": "2014. 05. 15",
+    "role": "1인 100%",
+    "client": "인성실업"
+  },
+  {
+    "name": "PETSBE 쇼핑몰 홈페이지",
+    "link": "http://www.petsbe.com",
+    "tech": "Static Web",
+    "start": "2014. 04. 17",
+    "end": "2014. 05. 15",
+    "role": "1인 100%",
+    "client": "펫츠비"
+  },
+  {
+    "name": "인성실업 웹하드 홈페이지",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2014. 01. 14",
+    "end": "2014. 02. 13",
+    "role": "1인 100%",
+    "client": "인성실업"
+  },
+  {
+    "name": "인성실업 스마트 카탈로그 하이브리드앱(사내 배포용)",
+    "link": "http://cfile24.uf.tistory.com/image/24522A4A56516214143CC0",
+    "tech": "Static Web",
+    "start": "2014. 01. 14",
+    "end": "2014. 02. 13",
+    "role": "1인 100%",
+    "client": "인성실업"
+  },
+  {
+    "name": "기아 서비스 관리자 페이지 추가 개발",
+    "link": "http://cfile27.uf.tistory.com/image/250D3A4E5651621A03B0F0",
+    "tech": "Static Web",
+    "start": "2013. 11. 20",
+    "end": "2013. 11. 20",
+    "role": "1인 100%",
+    "client": "기아"
+  },
+  {
+    "name": "스마트 기아 서비스 국가 제공 홍보용 사이트 추가 개발",
+    "link": "",
+    "tech": "Static Web",
+    "start": "2013. 11. 20",
+    "end": "2013. 12. 18",
+    "role": "1인 100%",
+    "client": "기아"
+  },
+  {
+    "name": "KIA Video Contest 홈페이지",
+    "link": "http://cfile5.uf.tistory.com/image/22055F4E5651621F0A8A97",
+    "tech": "Static Web",
+    "start": "2013. 09. 24",
+    "end": "2013. 10. 09",
+    "role": "1인 100%",
+    "client": "기아"
+  },
+  {
+    "name": "인천가톨릭대 E-HRD 홈페이지",
+    "link": "http://cfile21.uf.tistory.com/image/217B764E56516221116639",
+    "tech": "Static Web",
+    "start": "2013. 06. 26",
+    "end": "2013. 07. 17",
+    "role": "1인 100%",
+    "client": "가톨릭대"
+  },
+  {
+    "name": "동국대학교 모바일 역량진단 홈페이지",
+    "link": "http://cfile30.uf.tistory.com/image/267C174E565162231194FD",
+    "tech": "Static Web",
+    "start": "2013. 06. 26",
+    "end": "2013. 06. 26",
+    "role": "1인 100%",
+    "client": "동국대"
+  },
+  {
+    "name": "한국표준협회 E-HRD 홈페이지",
+    "link": "http://cfile26.uf.tistory.com/image/2205B34E565162260A3C7A",
+    "tech": "Static Web",
+    "start": "2013. 05. 15",
+    "end": "2013. 05. 15",
+    "role": "1인 100%",
+    "client": "한국표준협회"
+  },
+  {
+    "name": "강원도가 좋아요",
+    "link": "https://www.gangwon.to/",
+    "tech": "Static Web",
+    "start": "2013. 06. 26",
+    "end": "2013. 06. 26",
+    "role": "1인 100%",
+    "client": "강원관광"
+  },
+  {
+    "name": "동국대학교 E-HRD 홈페이지",
+    "link": "",
+    "tech": "ActionScript 3.0",
+    "start": "2013. 04. 25",
+    "end": "2013. 04. 25",
+    "role": "1인 100%",
+    "client": "동국대"
+  },
+  {
+    "name": "남부발전 E-HRD 홈페이지",
+    "link": "",
+    "tech": "ActionScript 3.0",
+    "start": "2012. 12. 26",
+    "end": "2013. 05. 15",
+    "role": "2인 50%",
+    "client": "남부발전"
+  },
+  {
+    "name": "경기여성 e-Learning 모바일 홈페이지",
+    "link": "http://m.homelearn.go.kr/front/home/MainAction.do?method=index",
+    "tech": "Static Web",
+    "start": "2012. 12. 26",
+    "end": "2012. 12. 26",
+    "role": "2인 50%",
+    "client": "경기여성"
+  },
+  {
+    "name": "한진중공업",
+    "link": "http://www.hanjinsc.com/",
+    "tech": "Static Web",
+    "start": "2012. 12. 26",
+    "end": "2012. 12. 26",
+    "role": "2인 50%",
+    "client": "한진중공업"
+  },
+  {
+    "name": "보훈청 E-HRD",
+    "link": "",
+    "tech": "ActionScript 3.0",
+    "start": "2012. 11. 21",
+    "end": "2012. 12. 26",
+    "role": "2인 50%",
+    "client": "보훈청"
+  },
+  {
+    "name": "퍼즐판타지 IOS,안드로이드 앱",
+    "link": "http://cfile26.uf.tistory.com/image/24604E4F5651622B10A977",
+    "tech": "ActionScript 3.0",
+    "start": "2012. 06. 14",
+    "end": "2012. 10. 18",
+    "role": "2인 30%",
+    "client": "엑스프라임"
+  },
+  {
+    "name": "삼성 R-PMIS[공정 관리 시스템] 모바일 앱(정부과제)",
+    "link": "",
+    "tech": "ActionScript 3.0",
+    "start": "2012. 01. 11",
+    "end": "2012. 05. 10",
+    "role": "2인 50%",
+    "client": "삼성"
+  },
+  {
+    "name": "LG 스마트폰 PRADA IUG(반응형 유저가이드) 홈페이지",
+    "link": "http://cfile24.uf.tistory.com/image/263A344F5651622E31BAEB",
+    "tech": "ActionScript 3.0",
+    "start": "2011. 09. 13",
+    "end": "2012. 01. 11",
+    "role": "2인 50%",
+    "client": "LG"
+  },
+  {
+    "name": "LG 3DTV Event 홈페이지",
+    "link": "http://cfile24.uf.tistory.com/image/263A344F5651622E31BAEB",
+    "tech": "ActionScript 3.0",
+    "start": "2011. 06. 08",
+    "end": "2011. 08. 17",
+    "role": "2인 20%",
+    "client": "LG"
+  },
+  {
+    "name": "LG DIOS Event 홈페이지",
+    "link": "",
+    "tech": "ActionScript 3.0",
+    "start": "2011. 04. 01",
+    "end": "2011. 04. 01",
+    "role": "2인 30%",
+    "client": "LG"
+  },
+  {
+    "name": "LG TROM Styler 홈페이지",
+    "link": "",
+    "tech": "ActionScript 3.0",
+    "start": "2011. 03. 01",
+    "end": "2011. 04. 01",
+    "role": "2인 40%",
+    "client": "LG"
+  }
+]
