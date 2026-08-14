@@ -54,21 +54,23 @@ export const App: React.FC = () => {
   };
 
   return (
-    <>
+    <div className="min-h-screen bg-black text-[#e0e0e0] font-mono relative selection:bg-[#00bcd4] selection:text-black">
+      {/* Subtle Scanline Background */}
       <div className="terminal-grid-bg"></div>
 
       <Navbar />
 
-      <div className="container">
-        <div className="layout-grid">
-          {/* Sidebar */}
-          <aside className="sidebar" id="about">
+      {/* Main Container */}
+      <div className="relative z-10 max-w-[1280px] mx-auto px-4 sm:px-6 py-10 sm:py-12">
+        <div className="grid grid-cols-1 lg:grid-cols-[380px_1fr] gap-8 sm:gap-10 items-start">
+          {/* Left Sticky Sidebar */}
+          <aside className="lg:sticky lg:top-24 flex flex-col gap-6" id="about">
             <TerminalProfile totalProjectsCount={projectsData.length} />
             <SkillsCard />
           </aside>
 
-          {/* Main Content */}
-          <main className="main-content">
+          {/* Right Main Content Column */}
+          <main className="flex flex-col gap-10 sm:gap-12 min-w-0">
             <ProjectsShowcase
               projectsList={processedProjects}
               totalCount={projectsData.length}
@@ -89,15 +91,17 @@ export const App: React.FC = () => {
         </div>
       </div>
 
+      {/* Quick View Detail Modal */}
       <DetailModal
         project={selectedProject}
         onClose={() => setSelectedProject(null)}
       />
 
-      <footer>
-        <p>&copy; 2026 Kang Sukmin. Built with React 18, TypeScript & Vite (JetBrains Mono & Cyan Accent).</p>
+      {/* Footer */}
+      <footer className="relative z-10 border-t border-[#333333] py-8 text-center text-xs text-[#a0a0a0]">
+        <p>&copy; 2026 Kang Sukmin. Built with React 18, Tailwind CSS v4, TypeScript & Vite.</p>
       </footer>
-    </>
+    </div>
   );
 };
 
