@@ -885,9 +885,9 @@
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#career" class="nav-link">Career</a></li>
             </ul>
-            <a href="mailto:dol2156@gmail.com" class="nav-contact-btn">
+            <a href="#contact" class="nav-contact-btn">
                 <i data-lucide="mail" style="width:15px;height:15px;"></i>
-                <span>Fale comigo</span>
+                <span>Contact Me</span>
             </a>
         </div>
     </header>
@@ -1139,10 +1139,10 @@
                         <h2 class="contact-title">$ ./contact_me.sh</h2>
                         <p class="contact-subtitle">함께 프로젝트를 진행하거나 채용에 대해 논의하고 싶으신가요?</p>
                         <div class="contact-actions">
-                            <a href="mailto:dol2156@gmail.com" class="nav-contact-btn">
+                            <button type="button" onclick="copyEmail()" class="nav-contact-btn" style="cursor:pointer;border:none;">
                                 <i data-lucide="mail" style="width:16px;height:16px;"></i>
-                                <span>dol2156@gmail.com</span>
-                            </a>
+                                <span>dol2156@gmail.com (복사)</span>
+                            </button>
                             <a href="tel:010-9319-2156" class="filter-btn" style="padding:10px 18px;font-weight:700;">
                                 <i data-lucide="phone" style="width:14px;height:14px;vertical-align:middle;margin-right:4px;"></i>
                                 <span>010-9319-2156</span>
@@ -1450,6 +1450,14 @@
             sortOption = e.target.value;
             renderProjects();
         });
+
+        window.copyEmail = function() {
+            navigator.clipboard.writeText('dol2156@gmail.com').then(() => {
+                alert('이메일 주소(dol2156@gmail.com)가 클립보드에 복사되었습니다.');
+            }).catch(() => {
+                window.location.href = 'mailto:dol2156@gmail.com';
+            });
+        };
 
         // Initialize Lucide & Render
         lucide.createIcons();
