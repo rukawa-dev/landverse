@@ -4,7 +4,7 @@ export const projectsData: Project[] = [
   // Page 1 (145 ~ 112)
   { name: "VW 자사 홈페이지", link: "https://www.v-w.co.kr/", tech: "Static Web", start: "2025. 11. 01", end: "2025. 11. 28", role: "1인 100%", client: "브이더블유" },
   { name: "씨네큐브", link: "https://www.cinecube.co.kr/", tech: "Static Web", start: "2025. 07. 07", end: "2025. 10. 31", role: "1인 100%", client: "씨네큐브" },
-  { name: "KQENT", link: "https://ateezofficial.net/", tech: "Static Web", start: "2025. 06. 20", end: "2025. 06. 13", role: "1인 100%", client: "KQ ENTERTAINMENT" },
+  { name: "KQENT", link: "https://ateezofficial.net/", tech: "Static Web", start: "2025. 06. 13", end: "2025. 06. 20", role: "1인 100%", client: "KQ ENTERTAINMENT" },
   { name: "한진80주년 역사관", link: "https://80years.hanjin.com/", tech: "Static Web", start: "2025. 04. 10", end: "2025. 06. 27", role: "1인 100%", client: "한진" },
   { name: "태광그룹 다국어", link: "https://www.taekwanggroup.co.kr/ko/main", tech: "Static Web", start: "2024. 12. 24", end: "2025. 02. 28", role: "1인 100%", client: "태광그룹" },
   { name: "넷앤드 영문", link: "https://netand.io/en/main", tech: "Static Web", start: "2024. 11. 14", end: "2025. 01. 14", role: "1인 100%", client: "넷앤드" },
